@@ -1,0 +1,10 @@
+.header {
+  margin: 0 auto;
+  max-width: 880px;
+  height: 74px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  
+ 
+}
