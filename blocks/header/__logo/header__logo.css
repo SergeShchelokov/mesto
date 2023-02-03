@@ -1,4 +1,6 @@
-.header__logo{
-  width: 142px;
-  position: relative;
+@media (max-width: 880px) {
+  .header__logo {
+    width: 104px;
+    height: 25px;
+  }
 }

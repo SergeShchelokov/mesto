@@ -1,9 +1,6 @@
-.page { 
+.page {
+  font-family: "Inter", "Arial", "Helvetica", sans-serif;
+  color:#000;
   max-width: 1280px;
-  height: 100%;
-  margin: 0  auto;
-  padding-top: 45px;
-  padding-bottom: 80px;
-  /* display: flex; */
-   
+  margin: 0 auto;
 }
