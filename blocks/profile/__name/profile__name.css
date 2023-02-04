@@ -4,9 +4,11 @@
   font-weight: 500;
   font-size: 42px;
   line-height: 48px;
+  white-space: nowrap;
+  overflow: hidden;
   text-overflow: ellipsis;
   color: #fff;
-  overflow: hidden;
+   
 }
 
 @media (max-width: 700px) {
@@ -17,3 +19,4 @@
     line-height: 33px;
   }
 }
+
