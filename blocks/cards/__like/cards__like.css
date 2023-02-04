@@ -1,13 +1,13 @@
 .cards__like {
+  background-image: url(../../../images/heart_type_disabled.svg);
   width: 22px;
   height: 19px;
-  padding: 0;
-  background-image: url(../../../images/heart_type_disabled.svg);
+  color: #fff;
+  transition: opacity 200ms;
   cursor: pointer;
   border: none;
-  transition: opacity 100ms;
   background-color: transparent;
-  color: #fff;
+  padding: 0;
 }
 
 .cards__like:hover {

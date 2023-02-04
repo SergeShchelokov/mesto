@@ -1,4 +1,4 @@
-.profile__user-name {
+.profile__name {
   color: #fff;
   margin: 0;
   font-weight: 500;
@@ -12,7 +12,7 @@
 
 @media (max-width: 700px) {
 
-  .profile__user-name {
+  .profile__name {
     font-size: 27px;
     line-height: 33px;
     max-width: 189px;
