@@ -1,6 +1,6 @@
-# **Проект: Место**
+# **Проект: Место** 
  
-[Сервис](https://sergeshchelokov.github.io/mesto/)  
+[Сервис](https://sergeshchelokov.github.io/mesto/) :point_left:   
 
 ![Screenshot](./images/screenshots.png)
 ## `Стек технологий`:
