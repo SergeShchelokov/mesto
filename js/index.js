@@ -94,11 +94,11 @@ function openImagePopup(card) {
   openPopup(popupViewImage);
 }
 
-// // Отображение имени пользователя в импутах попапа редактирования профиля при открытии
-// function insertProfileInfo() {
-//   formName.value = userName.textContent;
-//   formDescription.value = userDescription.textContent;
-// }
+// Отображение имени пользователя в импутах попапа редактирования профиля при открытии
+function insertProfileInfo() {
+  formName.value = userName.textContent;
+  formDescription.value = userDescription.textContent;
+}
 
 // Формы
 function handleSubmitProfileForm(event) {
