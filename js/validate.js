@@ -35,11 +35,10 @@ function checkInputValidity(formElement, inputElement, obj) {
     hideInputError(formElement, inputElement, obj);
   }
 }
-
+ 
 function setEventListeners(formElement, obj) {
   const inputList = Array.from(formElement.querySelectorAll(obj.inputSelector));
   const submitButton = formElement.querySelector(obj.submitButtonSelector);
-
   toggleButtonState(inputList, submitButton, obj);
 
   inputList.forEach((inputElement) => {
@@ -60,7 +59,8 @@ function toggleButtonState(inputList, buttonElement, obj) {
   if (hasInvalidInput(inputList)) {
     buttonElement.classList.add(obj.inactiveButtonClass);
     buttonElement.setAttribute("disabled", true);
-  } else {
+  }
+  else {
     buttonElement.classList.remove(obj.inactiveButtonClass);
     buttonElement.removeAttribute("disabled");
   }
@@ -75,3 +75,4 @@ function enableValidation(obj) {
 }
 
 enableValidation(config);
+

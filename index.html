@@ -6,6 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./pages/index.css">
+  <link rel="icon" href="./images/Favicon.png" type="image/x-icon">
   <title>Mesto</title>
 </head>
 
@@ -86,7 +87,8 @@
           <span class="popup__input-error-msg image-title-input-error"></span>
           <input 
           class="popup__input popup__input_type_image-url" 
-          id="url-input" name="image-url" 
+          id="url-input" 
+          name="image-url" 
           type="url"
           placeholder="Ссылка на изображение" 
           required
@@ -100,9 +102,9 @@
 
     <div class="popup popup_type_open-image">
       <figure class="popup__image-figure">
-        <button class="popup__close-btn" type="button" aria-label="Закрыть попап"></button>
-        <figcaption class="popup__image-title"></figcaption>
+        <button class="popup__close-btn" type="button" aria-label="Закрыть"></button>
         <img class="popup__image" src="./images/karachaevsk.jpg" alt="">
+        <figcaption class="popup__image-title"></figcaption>
       </figure>
     </div>
   </div>
@@ -113,7 +115,7 @@
       <img class="cards__image" src="#" alt="#">
       <div class="cards__description">
         <h2 class="cards__title"></h2>
-        <button class="cards__like" aria-label="Лайкнуть фото" type="button"></button>
+        <button class="cards__like" aria-label="Лайкнуть" type="button"></button>
       </div>
     </li>
   </template>
