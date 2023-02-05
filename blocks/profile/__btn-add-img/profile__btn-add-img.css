@@ -6,7 +6,7 @@
   border-radius: 2px;
   margin-left: auto;
   background-image: url(../../../images/plus_type_active.svg);
-  background-color: #000;
+  background-color: rgba(0, 0, 0, 0);
   background-repeat: no-repeat;
   background-position: center;
   cursor: pointer;

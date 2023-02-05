@@ -5,6 +5,7 @@
 
 @media (max-width: 580px) {
   .cards {
+    margin:0 auto;
     padding-right: 19px;
     padding-left: 19px;
   }
